@@ -33,7 +33,7 @@ class todoservice {
 
   add_todo(todo) {
    let len=this.todo_data["todo"].length;
-	this.todo_data["todo][len]=todo;
+	this.todo_data["todo"][len]=todo;
   }
 
   delete_todo(id) {
